@@ -1,0 +1,8 @@
+langchain==1.0.3
+langchain-community==0.4.1
+langchain-core==0.1.16
+llama-index-core==0.12.0
+numpy==2.2.0
+transformers
+sentencepiece
+accelerate

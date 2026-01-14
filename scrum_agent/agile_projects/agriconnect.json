@@ -1,0 +1,11 @@
+{
+    "project_id": "agriconnect",
+    "epics": [],
+    "backlog": [],
+    "sprints": [],
+    "definition_of_done": [
+        "Tests unitaires OK",
+        "Code review faite",
+        "Doc à jour"
+    ]
+}
