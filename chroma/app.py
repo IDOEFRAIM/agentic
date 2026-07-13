@@ -4,22 +4,21 @@
 import chromadb
 from chromadb.utils import embedding_functions
 
-# Define the embedding function using SentenceTransformers
+#We re defining the embedding function using SentenceTransformers
 ef = embedding_functions.SentenceTransformerEmbeddingFunction(
     model_name="all-MiniLM-L6-v2"
 )
 
-# Create a new instance of ChromaClient to interact with the Chroma DB
+# We re creating a new instance of ChromaClient to interact with the Chroma DB
 client = chromadb.Client()
 
-# Define the name for the collection to be created or retrieved
+#It defines the name for the collection to be created or retrieved
 collection_name = "my_grocery_collection"
 
 # Define the main function to interact with the Chroma DB
 def main():
     try:
-        # Place your database operations inside this block
-        # Create a collection in the Chroma database with a specified name, 
+
 # distance metric, and embedding function. In this case, we are using 
 # cosine distance
         collection = client.create_collection(
